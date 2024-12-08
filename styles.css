@@ -1,0 +1,216 @@
+/* styles.css */
+
+
+/* التنسيق العام لجميع الصفحات */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav a {
+    color: #ff8c00;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 0.9rem;
+}
+
+
+/* تحسينات صفحة Login */
+
+#login-form {
+    max-width: 400px;
+    margin: 30px auto;
+    background-color: #1f1f1f;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#login-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#login-form input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #333;
+    border: 1px solid #555;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#login-form button {
+    width: 50%;
+    padding: 5px;
+    background-color: #ff8c00;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1rem;
+}
+
+#login-form button:hover {
+    background-color: #e07b00;
+}
+
+
+/* تنسيق صفحة التسجيل */
+
+#signup-form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #1f1f1f;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#signup-form h2 {
+    text-align: center;
+    color: #ff8c00;
+    margin-bottom: 20px;
+}
+
+#signup-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+#signup-form input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#signup-form button {
+    width: 50%;
+    padding: 5px;
+    background-color: #ff8c00;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#signup-form button:hover {
+    background-color: #e07b00;
+}
+
+
+/* تحسينات صفحة Profile */
+
+#profile-info {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#profile-info h2 {
+    margin-top: 0;
+    background-color: #e07b00;
+}
+
+#profile-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#profile-info li {
+    margin-bottom: 10px;
+}
+
+#profile-info p {
+    font-size: 1.2rem;
+    color: #999;
+}
+
+
+/* تنسيق البحث والعناصر في الصفحة الرئيسية */
+
+#search {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#search-bar {
+    width: 60%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fcfbfa;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+#search-bar:focus {
+    border-color: #ff8c00;
+}
+
+#recommendations {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.movie-card {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.movie-card h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.movie-card p {
+    color: #ff8c00;
+    font-size: 1rem;
+}
